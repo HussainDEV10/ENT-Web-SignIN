@@ -31,7 +31,7 @@ function login() {
   auth.signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
       alert('تم تسجيل الدخول بنجاح');
-      window.location.href = 'index.html';
+      window.location.href = 'https://hussaindev10.github.io/ENT-Web';
     })
     .catch((error) => {
       alert('خطأ في تسجيل الدخول: ' + error.message);
@@ -55,7 +55,7 @@ function signUp() {
         profilePic: ''
       }).then(() => {
         alert('تم إنشاء الحساب بنجاح');
-        window.location.href = 'index.html';
+        window.location.href = 'https://hussaindev10.github.io/ENT-Web';
       });
     })
     .catch((error) => {
